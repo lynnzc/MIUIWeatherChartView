@@ -1,5 +1,19 @@
 # MIUIWeatherChartView
 
+# Get Started
+
+	<com.lynn.code.miuiweatherchartview.WeatherChartView
+	        android:id="@+id/weather_chart"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        app:fillColor="#63c3d6"
+	        app:textColor="#000000" />
+
+
+	WeatherChartView chartView = (WeatherChartView) findViewById(R.id.weather_chart);
+
+	chartView.setWeathers(mWeathers);
+
 # License
 
 	Copyright (C) 2016, Lynn
