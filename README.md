@@ -1,10 +1,13 @@
 # MIUIWeatherChartView
-  
+    
+  [MIUIWeatherChartView](https://github.com/lynnzc/MIUIWeatherChartView) 
+  is a high imitation of the chart view from MIUI Weather app.  
   ![preview](https://github.com/lynnzc/MIUIWeatherChartView/blob/master/preview/miuidemo.gif)
 
 # Usage
 
   add the view to your xml layout  
+    
 	<com.lynn.code.miuiweatherchartview.WeatherChartView
 	        android:id="@+id/weather_chart"
 	        android:layout_width="match_parent"
@@ -13,6 +16,7 @@
 	        app:textColor="#000000" />
 
   initializing the view and setting values
+    
 	WeatherChartView chartView = (WeatherChartView) findViewById(R.id.weather_chart);
 
 	List<WNode> weathers = new ArrayList<>();
